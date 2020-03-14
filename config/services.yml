@@ -1,0 +1,4 @@
+services:
+  validator:
+    class: '../services/Validator'
+    arguments: ['%class-validator']
