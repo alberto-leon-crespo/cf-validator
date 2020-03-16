@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/alberto-leon-crespo/cf-validator#readme",
   "dependencies": {
+    "@types/node": "^13.9.1",
     "class-validator": "^0.11.0",
     "node-dependency-injection": "^2.6.2"
   },
