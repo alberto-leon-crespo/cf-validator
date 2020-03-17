@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build",
-    "publish": "npm publish dist/components/validator",
+    "prepublish-build": "npm run build && npm run copy-package",
+    "copy-package": "shx cp -p package.json dist/components/validator/package.json",
+    "publish": "npm run prepublish-build && npm publish dist/components/validator",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
