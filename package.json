@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "publish": "npm publish dist/components/validator",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,11 +26,9 @@
   },
   "homepage": "https://github.com/alberto-leon-crespo/cf-validator#readme",
   "dependencies": {
+    "@carbonfrog/kernel": "^0.3.0",
     "@types/node": "^13.9.1",
     "class-validator": "^0.11.0",
     "node-dependency-injection": "^2.6.2"
-  },
-  "devDependencies": {
-    "link-module-alias": "^1.2.0"
   }
 }
