@@ -1,39 +1,37 @@
 {
-  "name": "@carbonfrog/validator",
-  "version": "0.4.2",
-  "description": "Carbonfrog Framework Validator Component",
-  "main": "index.js",
-  "scripts": {
-    "build": "tsc",
-    "prepublish-build": "npm run build && npm run copy-package",
-    "copy-package": "shx cp package.json ./dist/components/validator/package.json",
-    "publish": "npm run prepublish-build && npm publish ./dist/components/validator",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alberto-leon-crespo/cf-validator.git"
-  },
-  "keywords": [
-    "Carbonfrog",
-    "Framework",
-    "Validator",
-    "Component"
-  ],
-  "author": "Alberto León Crespo",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/alberto-leon-crespo/cf-validator/issues"
-  },
-  "homepage": "https://github.com/alberto-leon-crespo/cf-validator#readme",
-  "dependencies": {
-    "@carbonfrog/kernel": "^0.4.2",
-    "@types/node": "^13.9.1",
-    "class-validator": "^0.11.0",
-    "node-dependency-injection": "^2.6.2"
-  },
-  "devDependencies": {
-    "shelljs": "^0.8.3",
-    "shx": "^0.3.2"
-  }
+ "name": "@carbonfrog/validator",
+ "version": "0.4.3",
+ "description": "Carbonfrog Framework Validator Component",
+ "main": "index.js",
+ "scripts": {
+  "build": "tsc",
+  "install": "npm run build",
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/alberto-leon-crespo/cf-validator.git"
+ },
+ "keywords": [
+  "Carbonfrog",
+  "Framework",
+  "Validator",
+  "Component"
+ ],
+ "author": "Alberto León Crespo",
+ "license": "MIT",
+ "bugs": {
+  "url": "https://github.com/alberto-leon-crespo/cf-validator/issues"
+ },
+ "homepage": "https://github.com/alberto-leon-crespo/cf-validator#readme",
+ "dependencies": {
+  "@carbonfrog/kernel": "^0.4.2",
+  "@types/node": "^13.9.1",
+  "class-validator": "^0.11.0",
+  "node-dependency-injection": "^2.6.2"
+ },
+ "devDependencies": {
+  "shelljs": "^0.8.3",
+  "shx": "^0.3.2"
+ }
 }
