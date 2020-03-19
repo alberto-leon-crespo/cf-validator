@@ -1,6 +1,6 @@
 {
  "name": "@carbonfrog/validator",
- "version": "0.4.3",
+ "version": "0.4.4",
  "description": "Carbonfrog Framework Validator Component",
  "main": "index.js",
  "scripts": {
