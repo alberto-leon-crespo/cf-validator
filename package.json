@@ -1,6 +1,6 @@
 {
  "name": "@carbonfrog/validator",
- "version": "0.4.9",
+ "version": "0.4.13",
  "description": "Carbonfrog Framework Validator Component",
  "main": "index.js",
  "type": "module",
@@ -24,9 +24,9 @@
  },
  "homepage": "https://github.com/alberto-leon-crespo/cf-validator#readme",
  "dependencies": {
-  "@carbonfrog/kernel": "^0.4.2",
+  "@carbonfrog/kernel": "^0.4.13",
   "@types/node": "^13.9.1",
-  "class-validator": "^0.11.0",
+  "class-validator": "^0.11.1",
   "node-dependency-injection": "^2.6.2"
  },
  "devDependencies": {
